@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
 </head>
+
 <body>
     <header>
         <img src="img/logo.png" alt="IDK's logo">
-        <a href="index.html">Home</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="progresso.html">Progresso</a>
-        <a href="contato.html">Contato</a>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="progresso.html">Progresso</a>
+            <a href="contato.html">Contato</a>
+        </div>
     </header>
     <main>
         <h3>Preencha o formulário para nos enviar uma mensagem!</h3>
+
+        <form id="contactForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <div class="error" id="nameError"></div>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="error" id="emailError"></div>
+
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" required>
+            <div class="error" id="subjectError"></div>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <div class="error" id="messageError"></div>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="feedback" class="success"></div>
     </main>
+
+    <script src="js/form.js"></script>
 </body>
+
 </html>
