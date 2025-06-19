@@ -4,6 +4,7 @@
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
 }
 
 header{
@@ -11,10 +12,21 @@ header{
     padding-bottom: 10px;
     padding-top: 10px;
 	color: #FFF;
+	
 
 }
 
-header h1{
-	font-size: 2em;
-	display:inline-block;
+header a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 1.2em;
+	padding-bottom: 10px;
+    padding-top: 30px;
+	float: right;
+	padding-right: 30px;
+	text-align: justify;
+}
+
+main img {
+	width: 50%;
 }
