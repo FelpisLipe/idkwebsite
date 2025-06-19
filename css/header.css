@@ -1,0 +1,28 @@
+header {
+	background-color: #21211C;
+}
+
+header img {
+	height: 40px;
+	margin: 5px;
+}
+
+header div {
+	float: right;
+	margin: 0 auto;
+	height: 100%;
+
+}
+
+header div a {
+	padding: 5px;
+	text-decoration: none;
+	font-size: x-large;
+	color: #FFF;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header a:hover {
+	color: #666
+}
