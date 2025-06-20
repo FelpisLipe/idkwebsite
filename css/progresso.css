@@ -1,0 +1,19 @@
+main h2 {
+    text-align: center;
+}
+
+main img {
+    width: 1000px;
+    display: inline-block;
+    height: auto;
+    border-radius: 25px;
+}
+
+main figure {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
