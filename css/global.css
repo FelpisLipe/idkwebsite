@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+    /* border: solid thin black; */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #C4D1FF;
+}
+
 header {
     background-color: #4F6099;
     display: flex;
@@ -25,5 +36,5 @@ header div a {
 }
 
 header a:hover {
-    color:  #7FDBFF;
+    color: #7FDBFF;
 }

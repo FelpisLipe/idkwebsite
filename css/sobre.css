@@ -1,0 +1,60 @@
+main h3,
+aside h3 {
+    font-size: 2em;
+    margin: 30px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 30px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.employee {
+    margin: 25px;
+    margin-bottom: 0;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+
+.employee img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.employee h3,
+.employee h4 {
+    margin: 10px;
+}
+
+.employee h3 {
+    font-size: 2em;
+}
+
+.emp-img {
+    /* border: solid thin black; */
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #e0e0e0;
+    border-radius: 15px 15px 0 0;
+}
+
+ul {
+    column-count: 2;
+    column-gap: 200px;
+}
+
+ul li {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}

@@ -1,14 +1,3 @@
-* {
-	box-sizing: border-box;
-	/* border: solid thin black; */
-}
-
-body {
-	font-family: Arial, Helvetica, sans-serif;
-	margin: auto;
-	background-color: #C4D1FF;
-}
-
 main figure {
 	display: table;
 	margin: auto;
@@ -28,8 +17,8 @@ main figure figcaption {
 }
 
 main h1,
-h3,
-h4 {
+main h3,
+main h4 {
 	margin-left: 10px;
 }
 
@@ -37,6 +26,7 @@ main h2 {
 	text-align: center;
 	margin-bottom: 0;
 }
+
 .news {
 	float: left;
 	width: 25%;
@@ -80,28 +70,31 @@ main h2 {
 	font-size: 2em;
 }
 
-.slogan{
+.slogan {
 	margin-top: 5px;
 	background-color: #4f6099d9;
 	width: 10%;
 	padding: 5px;
 	border-radius: 0 15px 15px 0;
 }
-footer{
-    background-color: #4F6099;
+
+footer {
+	background-color: #4F6099;
 	margin-top: 30px;
 	padding-bottom: 8px;
-    font-size: x-large;
+	font-size: x-large;
 }
+
 footer span {
 	margin-right: 20%;
-	 color: #FFF;
+	color: #FFF;
 }
+
 footer a {
-    font-size: x-large;
-    color: #FFF;
+	font-size: x-large;
+	color: #FFF;
 }
 
 footer a:hover {
-    color:  #7FDBFF;
+	color: #7FDBFF;
 }
