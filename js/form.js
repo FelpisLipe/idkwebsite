@@ -1,14 +1,14 @@
  document.getElementById('contactForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault(); 
 
-        // Clear previous error messages
+        // Limpa os valores anteriores
         document.getElementById('nameError').innerText = '';
         document.getElementById('emailError').innerText = '';
         document.getElementById('subjectError').innerText = '';
         document.getElementById('messageError').innerText = '';
         document.getElementById('feedback').innerText = '';
 
-        // Get form values
+        // Pega os valores
         const name = document.getElementById('name').value.trim();
         const email = document.getElementById('email').value.trim();
         const subject = document.getElementById('subject').value.trim();
@@ -21,6 +21,7 @@
             valid = false;
         }
 
+        // regex do formato do email
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (email === '' || !emailPattern.test(email)) {
             document.getElementById('emailError').innerText = 'Por favor, insira um e-mail válido.';
@@ -39,7 +40,7 @@
 
         if (valid) {
             document.getElementById('feedback').innerText = 'Formulário enviado com sucesso!';
-            document.getElementById('contactForm').reset(); // Reset the form
+            document.getElementById('contactForm').reset(); 
         } else {
             document.getElementById('feedback').innerText = 'Por favor, corrija os erros acima.';
         }

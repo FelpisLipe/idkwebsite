@@ -1,0 +1,63 @@
+main h3 {
+    margin-top: 50px;
+    text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4F6099;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 25px;
+  align-self: flex-start;
+  background-color: #4F6099;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #3a4c7a;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 3px;
+}
+
+.success {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.1em;
+}

@@ -1,3 +1,5 @@
+/* Elementos usados por todos os html's (header, flex do div, etc) */
+
 * {
     box-sizing: border-box;
 }
@@ -36,4 +38,10 @@ header div a {
 
 header a:hover {
     color: #7FDBFF;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
