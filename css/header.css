@@ -1,28 +1,29 @@
 header {
-	background-color: #21211C;
+    background-color: #4F6099;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 15px;
 }
 
 header img {
-	height: 40px;
-	margin: 5px;
+    height: 40px;
 }
 
 header div {
-	float: right;
-	margin: 0 auto;
-	height: 100%;
-
+    display: flex;
+    gap: 15px;
 }
 
 header div a {
-	padding: 5px;
-	text-decoration: none;
-	font-size: x-large;
-	color: #FFF;
-	display:inline-block;
-	vertical-align:	middle;
+    text-decoration: none;
+    font-size: x-large;
+    color: #FFF;
 }
 
 header a:hover {
-	color: #666
+    color:  #7FDBFF;
 }
